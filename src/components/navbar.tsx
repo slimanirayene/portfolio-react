@@ -35,12 +35,8 @@ export default function Navbar() {
 		<div className={`navbar ${scrolling ? "scrolling" : ""}`}>
 			<div className="logo">LOGO</div>
 			<MenuOutlined className="drawer-button" onClick={showDrawer} />
+
 			<Drawer
-				headerStyle={{
-					backgroundColor: "blue",
-					display: "flex",
-					alignItems: "flex-end",
-				}}
 				title="Basic Drawer"
 				placement="top"
 				onClose={onClose}
