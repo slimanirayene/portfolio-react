@@ -1,0 +1,15 @@
+.mywork {
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	/* background-color: #F3F3F3; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mywork-content {
+	width: 90%;
+	height: 90%;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

@@ -33,7 +33,6 @@
 	max-height: 250px;
 	min-width: 200px;
 	min-height: 200px;
-	border: black 1px solid;
 	left: -6rem;
 	bottom: 34vh;
 }
@@ -41,23 +40,22 @@
 .hero-content {
 	position: absolute;
 	width: 60%;
-	/* border: black 2px solid; */
 	display: flex;
 }
 
 .hero-content.top {
 	height: 200px;
-	left: 5rem;
+	left: 7rem;
 	top: 30%;
 	flex-direction: column;
 	line-height: 350%;
 }
 
 .hero-content.bottom {
-	width: 60%;
+	width: 50%;
 	justify-content: space-between;
-	bottom: 30px;
-	left: 5rem;
+	bottom: 50px;
+	left: 7rem;
 	flex-direction: row;
 }
 
@@ -83,5 +81,19 @@
 		position: static;
 		width: 200px;
 		height: 200px;
+	}
+	.hero-content.top {
+		left: 4rem;
+	}
+	.hero-content.bottom {
+		width: 100%;
+		bottom: 20px;
+		justify-content: space-around;
+		left: 0rem;
+		/* border: #d35400 solid 2px; */
+	}
+	.content-box {
+		max-width: 100px;
+		font-size: 10px;
 	}
 }

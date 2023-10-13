@@ -33,7 +33,9 @@ export default function Navbar() {
 
 	return (
 		<div className={`navbar ${scrolling ? "scrolling" : ""}`}>
-			<div className="logo">LOGO</div>
+			<div className="logo">
+				<b>LOGO</b>
+			</div>
 			<MenuOutlined className="drawer-button" onClick={showDrawer} />
 
 			<Drawer

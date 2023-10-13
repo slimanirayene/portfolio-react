@@ -1,5 +1,6 @@
 import "../css/hero.css";
-import myPortrait from "../assets/portrait2.jpg";
+import myPortrait from "../assets/images.jpg";
+
 export default function Hero() {
 	return (
 		<div className="hero">
